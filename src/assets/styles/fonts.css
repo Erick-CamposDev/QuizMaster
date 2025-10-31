@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+h1 {
+  font-family: "Momo Trust Display";
+}
+
+.main-phrase {
+  font-family: "Raleway";
+}
+
+#startBtn {
+  font-family: "Raleway";
+}
+
+#selectContent {
+  font-family: "Raleway";
+}
+
+footer {
+  font-family: "Open Sans";
+}

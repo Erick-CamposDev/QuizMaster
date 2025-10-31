@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Erick Campos" />
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="src/assets/imgs/icons/Quiz Master Icon.png"
+      type="image.png"
+    />
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="src/assets/styles/reset.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/assets/styles/style.css" />
+    <link rel="stylesheet" href="src/assets/styles/fonts.css" />
+    <title>Quiz Master</title>
+  </head>
+  <body>
+    <header>
+      <div class="main-title">
+        <img
+          src="src/assets/imgs/icons/Quiz Master Icon.png"
+          alt="Logo do Quiz Master"
+        />
+        <h1>QUIZ<span>MASTER</span></h1>
+      </div>
+    </header>
+    <main>
+      <section class="start-quiz-container">
+        <div class="main-phrase">
+          <h2>Está pronto para desafiar sua mente?</h2>
+        </div>
+        <div class="main-image">
+          <img
+            src="src/assets/imgs/icons/brain-img.png"
+            alt="Imagem de cérebro"
+          />
+        </div>
+        <div class="btn-container">
+          <button id="startBtn" onclick="startQuiz()">COMEÇAR</button>
+        </div>
+        <div class="select-content">
+          <select name="content" id="selectContent">
+            <option selected value="">ESCOLHA A MATÉRIA</option>
+            <option value="portugues">Português</option>
+            <option value="matematica">Matemática</option>
+            <option value="historia">História</option>
+            <option value="geografia">Geografia</option>
+            <option value="biologia">Biologia</option>
+            <option value="fisica">Física</option>
+            <option value="ingles">Inglês</option>
+            <option value="quimica">Química</option>
+            <option value="filosofia">Filosofia</option>
+          </select>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="copyright">
+        <p>&copy; 2025 Erick Campos. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+    <script src="src/assets/js/script.js"></script>
+  </body>
+</html>
