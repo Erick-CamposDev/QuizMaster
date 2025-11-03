@@ -16,6 +16,22 @@ h1 {
   font-family: "Raleway";
 }
 
+.question {
+  font-family: "Open Sans";
+}
+
+.answer button {
+  font-family: "Raleway";
+}
+
+.answer span {
+  font-family: "Momo Trust Display";
+}
+
+#nextQuestionBtn {
+  font-family: "Raleway";
+}
+
 footer {
   font-family: "Open Sans";
 }
