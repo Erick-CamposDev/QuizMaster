@@ -1,4 +1,5 @@
 body {
+  position: relative;
   height: 125vh;
   background: linear-gradient(
     to bottom,
@@ -284,6 +285,49 @@ main {
   filter: brightness(1.2);
 }
 
+.modal-bg {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: #0a0a0a7c;
+  z-index: 999;
+}
+
+.loading-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #0a0a0a;
+  width: 85%;
+  height: auto;
+  padding: 0 0.75rem 2rem;
+  background: #ddd9d9;
+  border-radius: 18px;
+  box-shadow: 6px 6px 12px #00000059;
+  gap: 2rem;
+}
+
+.spinner {
+  margin-top: 1.5rem;
+  width: 150px;
+  height: 150px;
+  border: 4px solid #fafafa;
+  border-top: 4px solid #2b8eff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.loading-message {
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+}
+
 footer {
   padding: 2rem;
   display: flex;
@@ -292,6 +336,16 @@ footer {
   font-style: italic;
   font-weight: 700;
   text-align: center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(365deg);
+  }
 }
 
 @media (min-width: 280px) and (max-width: 450px) {
@@ -337,7 +391,8 @@ footer {
 @media (min-width: 768px) and (max-width: 1024px) {
   .start-quiz-container,
   .quiz-container,
-  .score-container {
+  .score-container,
+  .loading-modal {
     width: 55%;
   }
 }
@@ -345,7 +400,8 @@ footer {
 @media (min-width: 1024px) {
   .start-quiz-container,
   .quiz-container,
-  .score-container {
+  .score-container,
+  .loading-modal {
     width: 50%;
     max-width: 750px;
   }
