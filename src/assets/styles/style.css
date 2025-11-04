@@ -47,7 +47,7 @@ main {
 }
 
 .start-quiz-container {
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
   border: 1px solid #0a0a0a;
@@ -110,6 +110,12 @@ main {
   border: 2px solid #3ba0ff;
 }
 
+.msg {
+  margin-top: 1rem;
+  font-weight: 700;
+  color: #ff0000;
+}
+
 .quiz-container {
   display: none;
   flex-direction: column;
@@ -154,6 +160,18 @@ main {
   border-radius: 15px;
   box-shadow: 5px 5px 12px #0a0a0a83;
   transition: all 0.5 ease-in;
+}
+
+.answer-button.active {
+  background: #d8db11;
+}
+
+.answer-button.correct {
+  background: #27df27;
+}
+
+.answer-button.wrong {
+  background: #f51515;
 }
 
 .answer span {
@@ -204,7 +222,7 @@ main {
 }
 
 .score-container {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   border: 1px solid #0a0a0a;
