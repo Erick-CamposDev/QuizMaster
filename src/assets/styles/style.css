@@ -1,5 +1,5 @@
 body {
-  height: 115vh;
+  height: 125vh;
   background: linear-gradient(
     to bottom,
     #fafafa 0%,
@@ -203,6 +203,69 @@ main {
   filter: brightness(1.2);
 }
 
+.score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #0a0a0a;
+  width: 85%;
+  height: auto;
+  padding: 0 0.75rem 2rem;
+  background: #ddd9d993;
+  border-radius: 18px;
+  box-shadow: 6px 6px 12px #00000059;
+}
+
+.congratulations {
+  text-align: center;
+  margin: 1.5rem 0 0;
+  text-transform: uppercase;
+}
+
+.congratulations > h2 {
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.emoji-container > img {
+  width: 300px;
+  height: 300px;
+}
+
+.score-mark {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.mark {
+  color: #069e06;
+  font-weight: 100;
+  font-size: 28px;
+}
+
+.exit-container {
+  margin: 1.25rem 0 0.5rem;
+}
+
+#exitBtn {
+  width: 150px;
+  padding: 1rem;
+  border: 2px solid #2b2929;
+  background: #f1f375;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#exitBtn:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+}
+
 footer {
   padding: 2rem;
   display: flex;
@@ -238,18 +301,40 @@ footer {
     justify-content: center;
     margin-right: 0;
   }
+
+  .score-mark {
+    font-size: 20px;
+  }
+
+  .mark {
+    font-size: 24px;
+  }
+
+  .emoji-container > img {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .start-quiz-container,
-  .quiz-container {
+  .quiz-container,
+  .score-container {
     width: 55%;
   }
 }
 
 @media (min-width: 1024px) {
   .start-quiz-container,
-  .quiz-container {
+  .quiz-container,
+  .score-container {
     width: 50%;
+    max-width: 750px;
+  }
+}
+
+@media (min-height: 800px) {
+  body {
+    height: 105vh;
   }
 }
