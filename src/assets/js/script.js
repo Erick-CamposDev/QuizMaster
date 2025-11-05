@@ -76,6 +76,20 @@ async function fillQuestions(data, subject) {
       ul.appendChild(li);
     });
 
+    const answerButtons = answersContainer.querySelectorAll(".answer-button");
+
+    answerButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        answerButtons.forEach((b) => {
+          if (b === btn) {
+            b.classList.add("active");
+          } else {
+            b.classList.remove("active");
+          }
+        });
+      });
+    });
+
     nextButton.style.display = "none";
   } catch (error) {
     alert("ERRO AO CARREGAR AS PERGUNTAS! REDIRECIONANDO A PÁGINA INICIAL");
@@ -83,20 +97,6 @@ async function fillQuestions(data, subject) {
     startQuizContainer.style.display = "flex";
   }
 }
-
-const answerButtons = answersContainer.querySelectorAll(".answer-button");
-
-answerButtons.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    answerButtons.forEach((b) => {
-      if (b === btn) {
-        b.classList.add("active");
-      } else {
-        b.classList.remove("active");
-      }
-    });
-  });
-});
 
 function showErrorMsg(msg, element) {
   element.innerHTML = `<p>${msg}</p>`;
