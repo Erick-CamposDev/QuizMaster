@@ -90,12 +90,46 @@ async function fillQuestions(data, subject) {
       });
     });
 
+    answerButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        nextButton.style.display = "flex";
+      });
+    });
+
+    nextButton.addEventListener("click", () => {
+      showNextQuestion(data, subject);
+    });
+
     nextButton.style.display = "none";
   } catch (error) {
     alert("ERRO AO CARREGAR AS PERGUNTAS! REDIRECIONANDO A PÁGINA INICIAL");
     quiz.style.display = "none";
     startQuizContainer.style.display = "flex";
   }
+}
+
+let index = 0;
+let answered = false;
+
+function showNextQuestion(data, subject) {
+  if (index >= data.materias[subject].perguntas.length) {
+    quiz.style.display = "none";
+    scoreContainer.style.display = "flex";
+    return;
+  }
+
+  index++;
+
+  const currentQuestion = data.materias[subject].perguntas[index];
+  const alternatives = data.materias[subject].perguntas[index].alternativas;
+
+  question.innerHTML = `<h2>${currentQuestion.id}. ${currentQuestion.pergunta}</h2>`;
+
+  const buttons = document.querySelectorAll(".answer-button");
+
+  buttons.forEach((btn, i) => {
+    btn.innerText = `${alternatives[i]}`;
+  });
 }
 
 function showErrorMsg(msg, element) {
