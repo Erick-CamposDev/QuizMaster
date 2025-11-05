@@ -8,6 +8,8 @@ const quiz = document.querySelector(".quiz-container");
 const scoreContainer = document.querySelector(".score-container");
 
 const question = document.querySelector(".question");
+const answersContainer = document.querySelector(".answers-container");
+const nextButton = document.getElementById("nextQuestionBtn");
 
 async function startQuiz() {
   resetToDefault(msgContainer);
@@ -26,7 +28,14 @@ async function startQuiz() {
       modalLoading.style.display = "none";
 
       if (response.ok) {
-        fillQuestions(data);
+        const subjects = Object.keys(data.materias);
+        const chosenSubject = subjects.find(
+          (subject) => select.value === subject
+        );
+
+        if (chosenSubject) {
+          fillQuestions(data, chosenSubject);
+        }
       }
     } catch (error) {
       showErrorMsg("ERRO: Não foi possivel carregar o quiz", msgContainer);
@@ -37,13 +46,57 @@ async function startQuiz() {
 
 const letters = ["A", "B", "C", "D"];
 
-async function fillQuestions(data) {
+async function fillQuestions(data, subject) {
   startQuizContainer.style.display = "none";
   quiz.style.display = "flex";
 
   try {
-  } catch (error) {}
+    question.innerHTML = `<h2>${data.materias[subject].perguntas[0].id}. ${data.materias[subject].perguntas[0].pergunta}</h2>`;
+
+    const alternatives = data.materias[subject].perguntas[0].alternativas;
+
+    const ul = document.createElement("ul");
+    ul.classList.add("answers-list");
+    answersContainer.appendChild(ul);
+
+    alternatives.forEach((alt, i) => {
+      const li = document.createElement("li");
+      const span = document.createElement("span");
+      const button = document.createElement("button");
+
+      li.classList.add("answer");
+      button.classList.add("answer-button");
+
+      button.textContent = `${alt}`;
+      span.textContent = `${letters[i]}`;
+
+      li.appendChild(span);
+      li.appendChild(button);
+
+      ul.appendChild(li);
+    });
+
+    nextButton.style.display = "none";
+  } catch (error) {
+    alert("ERRO AO CARREGAR AS PERGUNTAS! REDIRECIONANDO A PÁGINA INICIAL");
+    quiz.style.display = "none";
+    startQuizContainer.style.display = "flex";
+  }
 }
+
+const answerButtons = answersContainer.querySelectorAll(".answer-button");
+
+answerButtons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    answerButtons.forEach((b) => {
+      if (b === btn) {
+        b.classList.add("active");
+      } else {
+        b.classList.remove("active");
+      }
+    });
+  });
+});
 
 function showErrorMsg(msg, element) {
   element.innerHTML = `<p>${msg}</p>`;

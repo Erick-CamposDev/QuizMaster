@@ -1,862 +1,884 @@
 {
-  "portugues": {
-    "perguntas": [
-      {
-        "id": 1,
-        "pergunta": "Em qual alternativa há um substantivo abstrato?",
-        "alternativas": ["Mesa", "Felicidade", "Caderno", "Casa"],
-        "correta": "Felicidade"
-      },
-      {
-        "id": 2,
-        "pergunta": "Qual é o antônimo de triste?",
-        "alternativas": ["Triste", "Raivoso", "Agitado", "Desanimado"],
-        "correta": "Triste"
-      },
-      {
-        "id": 3,
-        "pergunta": "Qual frase está escrita corretamente?",
-        "alternativas": [
-          "Nois vai ao cinema hoje.",
-          "Ele é muito sabido.",
-          "Você fez a atividade?",
-          "Eles foi viajar."
-        ],
-        "correta": "Você fez a atividade?"
-      },
-      {
-        "id": 4,
-        "pergunta": "Na frase: O menino correu rápido. O verbo está no:",
-        "alternativas": [
-          "Futuro",
-          "Presente",
-          "Pretérito(Passado)",
-          "Imperativo"
-        ],
-        "correta": "Pretérito(Passado)"
-      },
-      {
-        "id": 5,
-        "pergunta": "Qual alternativa traz uma metáfora?",
-        "alternativas": [
-          "Ela é uma flor de pessoa",
-          "Ele fala muito alto",
-          "O vento é forte",
-          "Choveu ontem"
-        ],
-        "correta": "Ela é uma flor de pessoa"
-      },
-      {
-        "id": 6,
-        "pergunta": "A palavra “inesquecível” é formada por:",
-        "alternativas": [
-          "Prefixo + Raiz",
-          "Raiz + Sufixo",
-          "Prefixo + Raiz + Sufixo",
-          "Apenas Raiz"
-        ],
-        "correta": "Prefixo + Raiz + Sufixo"
-      },
-      {
-        "id": 7,
-        "pergunta": "Em qual frase o pronome está correto?",
-        "alternativas": [
-          "Vi ela na escola",
-          "Entreguei o livro para ele",
-          "Vi-a na praia",
-          "Ele me deu isso para eu"
-        ],
-        "correta": "Vi-a na praia"
-      },
-      {
-        "id": 8,
-        "pergunta": "A palavra escrita corretamente é:",
-        "alternativas": ["Exessão", "Exceção", "Exseção", "Excessão"],
-        "correta": "Exceção"
-      },
-      {
-        "id": 9,
-        "pergunta": "Qual oração é coordenada adversativa?",
-        "alternativas": [
-          "Estudei muito portanto passei",
-          "Ele queria sair, mas estava cansado",
-          "Saí pois estava tarde",
-          "Quando cheguei, ele saiu"
-        ],
-        "correta": "Ele queria sair, mas estava cansado"
-      },
-      {
-        "id": 10,
-        "pergunta": "Qual palavra é um advérbio?",
-        "alternativas": ["Rapidamente", "Rápido", "Rapidez", "Rápida"],
-        "correta": "Rapidamente"
-      }
-    ]
-  },
-  "matematica": {
-    "perguntas": [
-      {
-        "id": 1,
-        "pergunta": "Qual é o valor de 7 × 8?",
-        "alternativas": ["54", "56", "58", "60"],
-        "correta": "56"
-      },
-      {
-        "id": 2,
-        "pergunta": "Qual fração é equivalente a 1/2?",
-        "alternativas": ["2/3", "3/6", "2/4", "4/8"],
-        "correta": "4/8"
-      },
-      {
-        "id": 3,
-        "pergunta": "Qual é a área de um quadrado de lado 5?",
-        "alternativas": ["10", "20", "25", "30"],
-        "correta": "25"
-      },
-      {
-        "id": 4,
-        "pergunta": "Qual número é primo?",
-        "alternativas": ["21", "25", "29", "27"],
-        "correta": "29"
-      },
-      {
-        "id": 5,
-        "pergunta": "Se x + 3 = 10, então x = ?",
-        "alternativas": ["6", "7", "8", "9"],
-        "correta": "7"
-      },
-      {
-        "id": 6,
-        "pergunta": "Qual é a média de 4, 6 e 8?",
-        "alternativas": ["5", "6", "7", "8"],
-        "correta": "6"
-      },
-      {
-        "id": 7,
-        "pergunta": "Qual é o perímetro de um triângulo com lados 3,4 e 5?",
-        "alternativas": ["10", "12", "11", "9"],
-        "correta": "12"
-      },
-      {
-        "id": 8,
-        "pergunta": "Qual a forma decimal de 25%?",
-        "alternativas": ["0.025", "0.25", "2.5", "25"],
-        "correta": "0.25"
-      },
-      {
-        "id": 9,
-        "pergunta": "Qual é a raiz quadrada de 81?",
-        "alternativas": ["7", "8", "9", "10"],
-        "correta": "9"
-      },
-      {
-        "id": 10,
-        "pergunta": "Qual é a razão entre 20 e 5?",
-        "alternativas": ["1:4", "4:1", "5:20", "20:5"],
-        "correta": "4:1"
-      }
-    ]
-  },
-  "historia": {
-    "perguntas": [
-      {
-        "id": 1,
-        "pergunta": "Em que ano ocorreu a Proclamação da República no Brasil?",
-        "alternativas": ["1888", "1889", "1890", "1870"],
-        "correta": "1889"
-      },
-      {
-        "id": 2,
-        "pergunta": "Quem foi o líder da Revolução Francesa mais associado ao Reinado do Terror?",
-        "alternativas": [
-          "Napoleão Bonaparte",
-          "Maximilien Robespierre",
-          "Luis XVI",
-          "Voltaire"
-        ],
-        "correta": "Maximilien Robespierre"
-      },
-      {
-        "id": 3,
-        "pergunta": "Qual civilização construiu as pirâmides de Gizé?",
-        "alternativas": ["Maia", "Egípcia", "Romana", "Grega"],
-        "correta": "Egípcia"
-      },
-      {
-        "id": 4,
-        "pergunta": "Qual foi o principal motivo da Primeira Guerra Mundial?",
-        "alternativas": [
-          "Disputa colonial",
-          "Assassinato em Sarajevo",
-          "Crise financeira",
-          "Exploração industrial"
-        ],
-        "correta": "Assassinato em Sarajevo"
-      },
-      {
-        "id": 5,
-        "pergunta": "Quem foi o líder da independência dos EUA?",
-        "alternativas": [
-          "George Washington",
-          "Abraham Lincoln",
-          "Thomas Edison",
-          "Benjamin Franklin"
-        ],
-        "correta": "George Washington"
-      },
-      {
-        "id": 6,
-        "pergunta": "Qual foi o período conhecido como Idade Média?",
-        "alternativas": ["476–1453", "1500–1700", "300–500", "1800–1900"],
-        "correta": "476–1453"
-      },
-      {
-        "id": 7,
-        "pergunta": "Que evento marcou o fim do período feudal na Europa?",
-        "alternativas": [
-          "Revolução Industrial",
-          "Descobrimentos",
-          "Revolução Francesa",
-          "Ascensão do Renascimento"
-        ],
-        "correta": "Revolução Industrial"
-      },
-      {
-        "id": 8,
-        "pergunta": "Qual império foi liderado por Genghis Khan?",
-        "alternativas": [
-          "Império Mongol",
-          "Império Otomano",
-          "Império Persa",
-          "Império Romano"
-        ],
-        "correta": "Império Mongol"
-      },
-      {
-        "id": 9,
-        "pergunta": "Quem assinou a Lei Áurea no Brasil?",
-        "alternativas": [
-          "D. Pedro II",
-          "Princesa Isabel",
-          "Getúlio Vargas",
-          "Joaquim Nabuco"
-        ],
-        "correta": "Princesa Isabel"
-      },
-      {
-        "id": 10,
-        "pergunta": "Quem foi o ditador que comandou a Alemanha Nazista?",
-        "alternativas": [
-          "Joseph Stalin",
-          "Benito Mussolini",
-          "Adolf Hitler",
-          "Winston Churchill"
-        ],
-        "correta": "Adolf Hitler"
-      }
-    ]
-  },
-  "geografia": {
-    "perguntas": [
-      {
-        "id": 1,
-        "pergunta": "Qual é o maior oceano do planeta?",
-        "alternativas": ["Atlântico", "Pacífico", "Índico", "Ártico"],
-        "correta": "Pacífico"
-      },
-      {
-        "id": 2,
-        "pergunta": "Qual linha divide a Terra em hemisférios norte e sul?",
-        "alternativas": [
-          "Meridiano de Greenwich",
-          "Equador",
-          "Trópico de Câncer",
-          "Círculo Polar Ártico"
-        ],
-        "correta": "Equador"
-      },
-      {
-        "id": 3,
-        "pergunta": "Qual bioma brasileiro é caracterizado por cerrado e campos?",
-        "alternativas": ["Amazônia", "Cerrado", "Mata Atlântica", "Caatinga"],
-        "correta": "Cerrado"
-      },
-      {
-        "id": 4,
-        "pergunta": "Qual é o maior rio do mundo em volume de água?",
-        "alternativas": ["Nilo", "Yangtzé", "Mississippi", "Amazonas"],
-        "correta": "Amazonas"
-      },
-      {
-        "id": 5,
-        "pergunta": "O que são placas tectônicas?",
-        "alternativas": [
-          "Montanhas",
-          "Camadas da atmosfera",
-          "Blocos da litosfera",
-          "Bacias oceânicas"
-        ],
-        "correta": "Blocos da litosfera"
-      },
-      {
-        "id": 6,
-        "pergunta": "Qual fuso horário fica 3 horas atrás de UTC (UTC-3)?",
-        "alternativas": [
-          "Horário de Brasília",
-          "UTC+3",
-          "UTC-5",
-          "Horário de Greenwich"
-        ],
-        "correta": "Horário de Brasília"
-      },
-      {
-        "id": 7,
-        "pergunta": "Qual país tem maior população do mundo?",
-        "alternativas": ["Índia", "Estados Unidos", "China", "Indonésia"],
-        "correta": "China"
-      },
-      {
-        "id": 8,
-        "pergunta": "Qual o principal fator que determina o clima de uma região?",
-        "alternativas": ["Latitude", "Língua falada", "Religião", "População"],
-        "correta": "Latitude"
-      },
-      {
-        "id": 9,
-        "pergunta": "O que é uma bacia hidrográfica?",
-        "alternativas": [
-          "Uma área que recebe água de chuva e drena para um rio",
-          "Um lago artificial",
-          "Uma montanha formada por água",
-          "Uma ilha fluvial"
-        ],
-        "correta": "Uma área que recebe água de chuva e drena para um rio"
-      },
-      {
-        "id": 10,
-        "pergunta": "Qual é a capital do Brasil?",
-        "alternativas": ["São Paulo", "Brasília", "Rio de Janeiro", "Salvador"],
-        "correta": "Brasília"
-      }
-    ]
-  },
-  "biologia": {
-    "perguntas": [
-      {
-        "id": 1,
-        "pergunta": "Qual é a unidade fundamental da vida?",
-        "alternativas": ["Átomo", "Molécula", "Célula", "Tecidos"],
-        "correta": "Célula"
-      },
-      {
-        "id": 2,
-        "pergunta": "Onde ocorre a fotossíntese nas plantas?",
-        "alternativas": ["Mitocôndria", "Cloroplasto", "Ribossomo", "Núcleo"],
-        "correta": "Cloroplasto"
-      },
-      {
-        "id": 3,
-        "pergunta": "Qual molécula carrega a informação genética?",
-        "alternativas": ["RNA", "Proteína", "DNA", "Lipídio"],
-        "correta": "DNA"
-      },
-      {
-        "id": 4,
-        "pergunta": "Qual sistema é responsável pela circulação do sangue?",
-        "alternativas": [
-          "Digestório",
-          "Nervoso",
-          "Circulatório",
-          "Respiratório"
-        ],
-        "correta": "Circulatório"
-      },
-      {
-        "id": 5,
-        "pergunta": "O que é um herbívoro?",
-        "alternativas": [
-          "Animal que come plantas",
-          "Animal que come carne",
-          "Animal que come ovos",
-          "Animal onívoro"
-        ],
-        "correta": "Animal que come plantas"
-      },
-      {
-        "id": 6,
-        "pergunta": "Qual processo gera gametas?",
-        "alternativas": ["Mitose", "Meiose", "Fagocitose", "Endocitose"],
-        "correta": "Meiose"
-      },
-      {
-        "id": 7,
-        "pergunta": "Qual órgão é responsável pela filtração do sangue?",
-        "alternativas": ["Fígado", "Coração", "Rim", "Pulmão"],
-        "correta": "Rim"
-      },
-      {
-        "id": 8,
-        "pergunta": "O que significa 'biodiversidade'?",
-        "alternativas": [
-          "Variedade de espécies em um ambiente",
-          "Quantidade de animais domésticos",
-          "Número de pessoas em uma cidade",
-          "Área de proteção ambiental"
-        ],
-        "correta": "Variedade de espécies em um ambiente"
-      },
-      {
-        "id": 9,
-        "pergunta": "Qual é a função dos anticorpos?",
-        "alternativas": [
-          "Produzir energia",
-          "Transportar oxigênio",
-          "Defender contra patógenos",
-          "Conduzir impulsos nervosos"
-        ],
-        "correta": "Defender contra patógenos"
-      },
-      {
-        "id": 10,
-        "pergunta": "Qual grupo inclui animais com espinha dorsal?",
-        "alternativas": [
-          "Invertebrados",
-          "Vertebrados",
-          "Protistas",
-          "Bactérias"
-        ],
-        "correta": "Vertebrados"
-      }
-    ]
-  },
-  "fisica": {
-    "perguntas": [
-      {
-        "id": 1,
-        "pergunta": "Qual a unidade de medida da força no SI?",
-        "alternativas": ["Watt", "Newton", "Pascal", "Joule"],
-        "correta": "Newton"
-      },
-      {
-        "id": 2,
-        "pergunta": "Qual é a fórmula da velocidade média?",
-        "alternativas": ["v = d/t", "v = m/a", "v = a/t", "v = t/d"],
-        "correta": "v = d/t"
-      },
-      {
-        "id": 3,
-        "pergunta": "O que mede a pressão?",
-        "alternativas": [
-          "Força por área",
-          "Massa por volume",
-          "Energia por tempo",
-          "Velocidade por tempo"
-        ],
-        "correta": "Força por área"
-      },
-      {
-        "id": 4,
-        "pergunta": "Qual a fonte de energia em uma pilha elétrica?",
-        "alternativas": ["Campo magnético", "Reação química", "Luz", "Som"],
-        "correta": "Reação química"
-      },
-      {
-        "id": 5,
-        "pergunta": "Qual fenômeno explica a refração da luz?",
-        "alternativas": [
-          "Interferência",
-          "Difração",
-          "Mudança de velocidade ao atravessar meios",
-          "Polarização"
-        ],
-        "correta": "Mudança de velocidade ao atravessar meios"
-      },
-      {
-        "id": 6,
-        "pergunta": "Qual lei relaciona força, massa e aceleração?",
-        "alternativas": [
-          "Primeira Lei de Newton",
-          "Segunda Lei de Newton",
-          "Lei da Gravitação Universal",
-          "Lei da Inércia"
-        ],
-        "correta": "Segunda Lei de Newton"
-      },
-      {
-        "id": 7,
-        "pergunta": "Qual é a unidade de energia no SI?",
-        "alternativas": ["Newton", "Joule", "Watt", "Pascal"],
-        "correta": "Joule"
-      },
-      {
-        "id": 8,
-        "pergunta": "O que é velocidade escalar média?",
-        "alternativas": [
-          "Deslocamento dividido pelo tempo",
-          "Distância total dividida pelo tempo",
-          "Aceleração vezes tempo",
-          "Força multiplicada pela massa"
-        ],
-        "correta": "Distância total dividida pelo tempo"
-      },
-      {
-        "id": 9,
-        "pergunta": "Qual fenômeno está relacionado a ondas sonoras?",
-        "alternativas": [
-          "Polarização",
-          "Amplitude elétrica",
-          "Compressão e rarefação",
-          "Refração luminosa"
-        ],
-        "correta": "Compressão e rarefação"
-      },
-      {
-        "id": 10,
-        "pergunta": "Qual força mantém os planetas em órbita ao redor do Sol?",
-        "alternativas": [
-          "Força eletromagnética",
-          "Força de atrito",
-          "Força gravitacional",
-          "Força centrífuga"
-        ],
-        "correta": "Força gravitacional"
-      }
-    ]
-  },
-  "ingles": {
-    "perguntas": [
-      {
-        "id": 1,
-        "pergunta": "Como se diz 'casa' em inglês?",
-        "alternativas": ["House", "Car", "Tree", "Book"],
-        "correta": "House"
-      },
-      {
-        "id": 2,
-        "pergunta": "Escolha a forma correta do verbo no passado: 'I ___ yesterday.'",
-        "alternativas": ["goes", "went", "gone", "going"],
-        "correta": "went"
-      },
-      {
-        "id": 3,
-        "pergunta": "Qual a tradução de 'apple'?",
-        "alternativas": ["Maçã", "Banana", "Uva", "Laranja"],
-        "correta": "Maçã"
-      },
-      {
-        "id": 4,
-        "pergunta": "Qual é o plural de 'child'?",
-        "alternativas": ["Childs", "Childes", "Children", "Child"],
-        "correta": "Children"
-      },
-      {
-        "id": 5,
-        "pergunta": "Qual preposição completa: 'She is good ___ math'?",
-        "alternativas": ["in", "on", "at", "for"],
-        "correta": "at"
-      },
-      {
-        "id": 6,
-        "pergunta": "Como se pergunta 'Como você está?' em inglês?",
-        "alternativas": [
-          "How are you?",
-          "What are you?",
-          "Where are you?",
-          "Who are you?"
-        ],
-        "correta": "How are you?"
-      },
-      {
-        "id": 7,
-        "pergunta": "Traduza 'livro' para inglês:",
-        "alternativas": ["Pen", "Table", "Book", "Chair"],
-        "correta": "Book"
-      },
-      {
-        "id": 8,
-        "pergunta": "Qual é o comparativo de 'big'?",
-        "alternativas": ["Bigger", "Biggest", "More big", "Most big"],
-        "correta": "Bigger"
-      },
-      {
-        "id": 9,
-        "pergunta": "Complete: 'They ___ playing now.'",
-        "alternativas": ["is", "are", "am", "be"],
-        "correta": "are"
-      },
-      {
-        "id": 10,
-        "pergunta": "Qual palavra significa 'rápido' em inglês?",
-        "alternativas": ["Slow", "Fast", "Late", "Hard"],
-        "correta": "Fast"
-      }
-    ]
-  },
-  "quimica": {
-    "perguntas": [
-      {
-        "id": 1,
-        "pergunta": "Qual é o símbolo químico do Oxigênio?",
-        "alternativas": ["O", "Ox", "Og", "Oxg"],
-        "correta": "O"
-      },
-      {
-        "id": 2,
-        "pergunta": "Qual partícula tem carga negativa?",
-        "alternativas": ["Próton", "Nêutron", "Elétron", "Íon"],
-        "correta": "Elétron"
-      },
-      {
-        "id": 3,
-        "pergunta": "O que indica o pH de uma solução?",
-        "alternativas": [
-          "Temperatura",
-          "Acidez ou alcalinidade",
-          "Viscosidade",
-          "Densidade"
-        ],
-        "correta": "Acidez ou alcalinidade"
-      },
-      {
-        "id": 4,
-        "pergunta": "Qual estado da matéria tem forma definida e volume definido?",
-        "alternativas": ["Sólido", "Líquido", "Gasoso", "Plasma"],
-        "correta": "Sólido"
-      },
-      {
-        "id": 5,
-        "pergunta": "Qual ligação ocorre entre metal e não metal formando íons?",
-        "alternativas": ["Covalente", "Iônica", "Metálica", "Van der Waals"],
-        "correta": "Iônica"
-      },
-      {
-        "id": 6,
-        "pergunta": "Qual gás é produzido na respiração celular?",
-        "alternativas": [
-          "Oxigênio",
-          "Dióxido de carbono",
-          "Hidrogênio",
-          "Nitrogênio"
-        ],
-        "correta": "Dióxido de carbono"
-      },
-      {
-        "id": 7,
-        "pergunta": "Qual unidade mede a quantidade de substância?",
-        "alternativas": ["Mol", "Grama", "Litro", "Molecula"],
-        "correta": "Mol"
-      },
-      {
-        "id": 8,
-        "pergunta": "Qual é o processo de transformação de reagentes em produtos?",
-        "alternativas": ["Fusão", "Reação química", "Sublimação", "Deposição"],
-        "correta": "Reação química"
-      },
-      {
-        "id": 9,
-        "pergunta": "Qual elemento é conhecido como 'rei dos metais' pela sua reatividade com água?",
-        "alternativas": ["Sódio", "Ouro", "Ferro", "Cobre"],
-        "correta": "Sódio"
-      },
-      {
-        "id": 10,
-        "pergunta": "Qual grupo de compostos contém carbono central?",
-        "alternativas": ["Iônicos", "Orgânicos", "Metálicos", "Ácidos"],
-        "correta": "Orgânicos"
-      }
-    ]
-  },
-  "filosofia": {
-    "perguntas": [
-      {
-        "id": 1,
-        "pergunta": "Quem é considerado discípulo de Sócrates e autor da República?",
-        "alternativas": ["Aristóteles", "Platão", "Descartes", "Kant"],
-        "correta": "Platão"
-      },
-      {
-        "id": 2,
-        "pergunta": "O que estuda a ética?",
-        "alternativas": [
-          "A natureza do universo",
-          "Os princípios morais e o bem agir",
-          "A estrutura da linguagem",
-          "Cálculo de probabilidades"
-        ],
-        "correta": "Os princípios morais e o bem agir"
-      },
-      {
-        "id": 3,
-        "pergunta": "Qual corrente filosófica enfatiza a razão como fonte do conhecimento?",
-        "alternativas": [
-          "Empirismo",
-          "Racionalismo",
-          "Existencialismo",
-          "Ceticismo"
-        ],
-        "correta": "Racionalismo"
-      },
-      {
-        "id": 4,
-        "pergunta": "Quem escreveu 'Penso, logo existo'?",
-        "alternativas": ["Descartes", "Nietzsche", "Kant", "Hume"],
-        "correta": "Descartes"
-      },
-      {
-        "id": 5,
-        "pergunta": "O que é epistemologia?",
-        "alternativas": [
-          "Estudo da arte",
-          "Estudo do conhecimento",
-          "Estudo da política",
-          "Estudo da religião"
-        ],
-        "correta": "Estudo do conhecimento"
-      },
-      {
-        "id": 6,
-        "pergunta": "Qual filósofo é associado ao utilitarismo clássico?",
-        "alternativas": ["Kant", "John Stuart Mill", "Sócrates", "Aristóteles"],
-        "correta": "John Stuart Mill"
-      },
-      {
-        "id": 7,
-        "pergunta": "O que significa 'existencialismo' em filosofia?",
-        "alternativas": [
-          "Foco nas estruturas políticas",
-          "Foco na existência individual e liberdade",
-          "Foco em leis naturais",
-          "Foco em gramática"
-        ],
-        "correta": "Foco na existência individual e liberdade"
-      },
-      {
-        "id": 8,
-        "pergunta": "Qual conceito é central para a filosofia de Aristóteles?",
-        "alternativas": [
-          "Dialética",
-          "Forma e matéria",
-          "Niilismo",
-          "Determinismo estrito"
-        ],
-        "correta": "Forma e matéria"
-      },
-      {
-        "id": 9,
-        "pergunta": "O que é falácia?",
-        "alternativas": [
-          "Um tipo de argumento válido",
-          "Um erro de raciocínio que parece correto",
-          "Uma teoria científica",
-          "Uma prática artística"
-        ],
-        "correta": "Um erro de raciocínio que parece correto"
-      },
-      {
-        "id": 10,
-        "pergunta": "Qual filósofo escreveu 'Além do Bem e do Mal'?",
-        "alternativas": ["Nietzsche", "Plató", "Sartre", "Hobbes"],
-        "correta": "Nietzsche"
-      }
-    ]
-  },
-  "educacaoFisica": {
-    "perguntas": [
-      {
-        "id": 1,
-        "pergunta": "Qual componente não faz parte da aptidão física?",
-        "alternativas": [
-          "Força",
-          "Flexibilidade",
-          "Inteligência",
-          "Resistência"
-        ],
-        "correta": "Inteligência"
-      },
-      {
-        "id": 2,
-        "pergunta": "Qual tipo de exercício é mais associado ao desenvolvimento cardiovascular?",
-        "alternativas": [
-          "Musculação pesada",
-          "Treino aeróbico",
-          "Alongamento estático",
-          "Treino de agilidade"
-        ],
-        "correta": "Treino aeróbico"
-      },
-      {
-        "id": 3,
-        "pergunta": "O que é aquecimento antes do exercício?",
-        "alternativas": [
-          "Atividade para preparar o corpo e reduzir lesões",
-          "Exercício de alta intensidade sem preparação",
-          "Descanso prolongado",
-          "Alimentação pesada antes do treino"
-        ],
-        "correta": "Atividade para preparar o corpo e reduzir lesões"
-      },
-      {
-        "id": 4,
-        "pergunta": "Qual é a medida que relaciona peso e altura (índice)?",
-        "alternativas": [
-          "Frequência cardíaca",
-          "IMC",
-          "VO2 máximo",
-          "Pressão arterial"
-        ],
-        "correta": "IMC"
-      },
-      {
-        "id": 5,
-        "pergunta": "Qual esporte é jogado com raquete e uma pequena bola suspensa sobre uma rede?",
-        "alternativas": ["Futebol", "Basquete", "Tênis", "Voleibol"],
-        "correta": "Tênis"
-      },
-      {
-        "id": 6,
-        "pergunta": "Qual exercício trabalha principalmente os músculos abdominais?",
-        "alternativas": ["Agachamento", "Prancha", "Supino", "Puxada"],
-        "correta": "Prancha"
-      },
-      {
-        "id": 7,
-        "pergunta": "O que é recuperação muscular?",
-        "alternativas": [
-          "Aumento de velocidade durante o treino",
-          "Processo de descanso e reparo após esforço",
-          "Melhoria do aquecimento",
-          "A técnica de competição"
-        ],
-        "correta": "Processo de descanso e reparo após esforço"
-      },
-      {
-        "id": 8,
-        "pergunta": "Qual componente é importante para a prevenção de lesões?",
-        "alternativas": [
-          "Sobrecarga constante",
-          "Alongamento e fortalecimento",
-          "Ignorar dor",
-          "Entrenar sem aquecer"
-        ],
-        "correta": "Alongamento e fortalecimento"
-      },
-      {
-        "id": 9,
-        "pergunta": "Qual é a duração média recomendada de atividade física moderada por semana para saúde?",
-        "alternativas": [
-          "75 minutos",
-          "150 minutos",
-          "300 minutos",
-          "30 minutos"
-        ],
-        "correta": "150 minutos"
-      },
-      {
-        "id": 10,
-        "pergunta": "Qual é o principal músculo usado no movimento de flexão do braço?",
-        "alternativas": ["Tríceps", "Peitoral", "Bíceps", "Quadríceps"],
-        "correta": "Bíceps"
-      }
-    ]
+  "materias": {
+    "portugues": {
+      "perguntas": [
+        {
+          "id": 1,
+          "pergunta": "Em qual alternativa há um substantivo abstrato?",
+          "alternativas": ["Mesa", "Felicidade", "Caderno", "Casa"],
+          "correta": "Felicidade"
+        },
+        {
+          "id": 2,
+          "pergunta": "Qual é o antônimo de triste?",
+          "alternativas": ["Triste", "Raivoso", "Agitado", "Desanimado"],
+          "correta": "Triste"
+        },
+        {
+          "id": 3,
+          "pergunta": "Qual frase está escrita corretamente?",
+          "alternativas": [
+            "Nois vai ao cinema hoje.",
+            "Ele é muito sabido.",
+            "Você fez a atividade?",
+            "Eles foi viajar."
+          ],
+          "correta": "Você fez a atividade?"
+        },
+        {
+          "id": 4,
+          "pergunta": "Na frase: O menino correu rápido. O verbo está no:",
+          "alternativas": [
+            "Futuro",
+            "Presente",
+            "Pretérito(Passado)",
+            "Imperativo"
+          ],
+          "correta": "Pretérito(Passado)"
+        },
+        {
+          "id": 5,
+          "pergunta": "Qual alternativa traz uma metáfora?",
+          "alternativas": [
+            "Ela é uma flor de pessoa",
+            "Ele fala muito alto",
+            "O vento é forte",
+            "Choveu ontem"
+          ],
+          "correta": "Ela é uma flor de pessoa"
+        },
+        {
+          "id": 6,
+          "pergunta": "A palavra “inesquecível” é formada por:",
+          "alternativas": [
+            "Prefixo + Raiz",
+            "Raiz + Sufixo",
+            "Prefixo + Raiz + Sufixo",
+            "Apenas Raiz"
+          ],
+          "correta": "Prefixo + Raiz + Sufixo"
+        },
+        {
+          "id": 7,
+          "pergunta": "Em qual frase o pronome está correto?",
+          "alternativas": [
+            "Vi ela na escola",
+            "Entreguei o livro para ele",
+            "Vi-a na praia",
+            "Ele me deu isso para eu"
+          ],
+          "correta": "Vi-a na praia"
+        },
+        {
+          "id": 8,
+          "pergunta": "A palavra escrita corretamente é:",
+          "alternativas": ["Exessão", "Exceção", "Exseção", "Excessão"],
+          "correta": "Exceção"
+        },
+        {
+          "id": 9,
+          "pergunta": "Qual oração é coordenada adversativa?",
+          "alternativas": [
+            "Estudei muito portanto passei",
+            "Ele queria sair, mas estava cansado",
+            "Saí pois estava tarde",
+            "Quando cheguei, ele saiu"
+          ],
+          "correta": "Ele queria sair, mas estava cansado"
+        },
+        {
+          "id": 10,
+          "pergunta": "Qual palavra é um advérbio?",
+          "alternativas": ["Rapidamente", "Rápido", "Rapidez", "Rápida"],
+          "correta": "Rapidamente"
+        }
+      ]
+    },
+    "matematica": {
+      "perguntas": [
+        {
+          "id": 1,
+          "pergunta": "Qual é o valor de 7 × 8?",
+          "alternativas": ["54", "56", "58", "60"],
+          "correta": "56"
+        },
+        {
+          "id": 2,
+          "pergunta": "Qual fração é equivalente a 1/2?",
+          "alternativas": ["2/3", "3/6", "2/4", "4/8"],
+          "correta": "4/8"
+        },
+        {
+          "id": 3,
+          "pergunta": "Qual é a área de um quadrado de lado 5?",
+          "alternativas": ["10", "20", "25", "30"],
+          "correta": "25"
+        },
+        {
+          "id": 4,
+          "pergunta": "Qual número é primo?",
+          "alternativas": ["21", "25", "29", "27"],
+          "correta": "29"
+        },
+        {
+          "id": 5,
+          "pergunta": "Se x + 3 = 10, então x = ?",
+          "alternativas": ["6", "7", "8", "9"],
+          "correta": "7"
+        },
+        {
+          "id": 6,
+          "pergunta": "Qual é a média de 4, 6 e 8?",
+          "alternativas": ["5", "6", "7", "8"],
+          "correta": "6"
+        },
+        {
+          "id": 7,
+          "pergunta": "Qual é o perímetro de um triângulo com lados 3,4 e 5?",
+          "alternativas": ["10", "12", "11", "9"],
+          "correta": "12"
+        },
+        {
+          "id": 8,
+          "pergunta": "Qual a forma decimal de 25%?",
+          "alternativas": ["0.025", "0.25", "2.5", "25"],
+          "correta": "0.25"
+        },
+        {
+          "id": 9,
+          "pergunta": "Qual é a raiz quadrada de 81?",
+          "alternativas": ["7", "8", "9", "10"],
+          "correta": "9"
+        },
+        {
+          "id": 10,
+          "pergunta": "Qual é a razão entre 20 e 5?",
+          "alternativas": ["1:4", "4:1", "5:20", "20:5"],
+          "correta": "4:1"
+        }
+      ]
+    },
+    "historia": {
+      "perguntas": [
+        {
+          "id": 1,
+          "pergunta": "Em que ano ocorreu a Proclamação da República no Brasil?",
+          "alternativas": ["1888", "1889", "1890", "1870"],
+          "correta": "1889"
+        },
+        {
+          "id": 2,
+          "pergunta": "Quem foi o líder da Revolução Francesa mais associado ao Reinado do Terror?",
+          "alternativas": [
+            "Napoleão Bonaparte",
+            "Maximilien Robespierre",
+            "Luis XVI",
+            "Voltaire"
+          ],
+          "correta": "Maximilien Robespierre"
+        },
+        {
+          "id": 3,
+          "pergunta": "Qual civilização construiu as pirâmides de Gizé?",
+          "alternativas": ["Maia", "Egípcia", "Romana", "Grega"],
+          "correta": "Egípcia"
+        },
+        {
+          "id": 4,
+          "pergunta": "Qual foi o principal motivo da Primeira Guerra Mundial?",
+          "alternativas": [
+            "Disputa colonial",
+            "Assassinato em Sarajevo",
+            "Crise financeira",
+            "Exploração industrial"
+          ],
+          "correta": "Assassinato em Sarajevo"
+        },
+        {
+          "id": 5,
+          "pergunta": "Quem foi o líder da independência dos EUA?",
+          "alternativas": [
+            "George Washington",
+            "Abraham Lincoln",
+            "Thomas Edison",
+            "Benjamin Franklin"
+          ],
+          "correta": "George Washington"
+        },
+        {
+          "id": 6,
+          "pergunta": "Qual foi o período conhecido como Idade Média?",
+          "alternativas": ["476–1453", "1500–1700", "300–500", "1800–1900"],
+          "correta": "476–1453"
+        },
+        {
+          "id": 7,
+          "pergunta": "Que evento marcou o fim do período feudal na Europa?",
+          "alternativas": [
+            "Revolução Industrial",
+            "Descobrimentos",
+            "Revolução Francesa",
+            "Ascensão do Renascimento"
+          ],
+          "correta": "Revolução Industrial"
+        },
+        {
+          "id": 8,
+          "pergunta": "Qual império foi liderado por Genghis Khan?",
+          "alternativas": [
+            "Império Mongol",
+            "Império Otomano",
+            "Império Persa",
+            "Império Romano"
+          ],
+          "correta": "Império Mongol"
+        },
+        {
+          "id": 9,
+          "pergunta": "Quem assinou a Lei Áurea no Brasil?",
+          "alternativas": [
+            "D. Pedro II",
+            "Princesa Isabel",
+            "Getúlio Vargas",
+            "Joaquim Nabuco"
+          ],
+          "correta": "Princesa Isabel"
+        },
+        {
+          "id": 10,
+          "pergunta": "Quem foi o ditador que comandou a Alemanha Nazista?",
+          "alternativas": [
+            "Joseph Stalin",
+            "Benito Mussolini",
+            "Adolf Hitler",
+            "Winston Churchill"
+          ],
+          "correta": "Adolf Hitler"
+        }
+      ]
+    },
+    "geografia": {
+      "perguntas": [
+        {
+          "id": 1,
+          "pergunta": "Qual é o maior oceano do planeta?",
+          "alternativas": ["Atlântico", "Pacífico", "Índico", "Ártico"],
+          "correta": "Pacífico"
+        },
+        {
+          "id": 2,
+          "pergunta": "Qual linha divide a Terra em hemisférios norte e sul?",
+          "alternativas": [
+            "Meridiano de Greenwich",
+            "Equador",
+            "Trópico de Câncer",
+            "Círculo Polar Ártico"
+          ],
+          "correta": "Equador"
+        },
+        {
+          "id": 3,
+          "pergunta": "Qual bioma brasileiro é caracterizado por cerrado e campos?",
+          "alternativas": ["Amazônia", "Cerrado", "Mata Atlântica", "Caatinga"],
+          "correta": "Cerrado"
+        },
+        {
+          "id": 4,
+          "pergunta": "Qual é o maior rio do mundo em volume de água?",
+          "alternativas": ["Nilo", "Yangtzé", "Mississippi", "Amazonas"],
+          "correta": "Amazonas"
+        },
+        {
+          "id": 5,
+          "pergunta": "O que são placas tectônicas?",
+          "alternativas": [
+            "Montanhas",
+            "Camadas da atmosfera",
+            "Blocos da litosfera",
+            "Bacias oceânicas"
+          ],
+          "correta": "Blocos da litosfera"
+        },
+        {
+          "id": 6,
+          "pergunta": "Qual fuso horário fica 3 horas atrás de UTC (UTC-3)?",
+          "alternativas": [
+            "Horário de Brasília",
+            "UTC+3",
+            "UTC-5",
+            "Horário de Greenwich"
+          ],
+          "correta": "Horário de Brasília"
+        },
+        {
+          "id": 7,
+          "pergunta": "Qual país tem maior população do mundo?",
+          "alternativas": ["Índia", "Estados Unidos", "China", "Indonésia"],
+          "correta": "China"
+        },
+        {
+          "id": 8,
+          "pergunta": "Qual o principal fator que determina o clima de uma região?",
+          "alternativas": [
+            "Latitude",
+            "Língua falada",
+            "Religião",
+            "População"
+          ],
+          "correta": "Latitude"
+        },
+        {
+          "id": 9,
+          "pergunta": "O que é uma bacia hidrográfica?",
+          "alternativas": [
+            "Uma área que recebe água de chuva e drena para um rio",
+            "Um lago artificial",
+            "Uma montanha formada por água",
+            "Uma ilha fluvial"
+          ],
+          "correta": "Uma área que recebe água de chuva e drena para um rio"
+        },
+        {
+          "id": 10,
+          "pergunta": "Qual é a capital do Brasil?",
+          "alternativas": [
+            "São Paulo",
+            "Brasília",
+            "Rio de Janeiro",
+            "Salvador"
+          ],
+          "correta": "Brasília"
+        }
+      ]
+    },
+    "biologia": {
+      "perguntas": [
+        {
+          "id": 1,
+          "pergunta": "Qual é a unidade fundamental da vida?",
+          "alternativas": ["Átomo", "Molécula", "Célula", "Tecidos"],
+          "correta": "Célula"
+        },
+        {
+          "id": 2,
+          "pergunta": "Onde ocorre a fotossíntese nas plantas?",
+          "alternativas": ["Mitocôndria", "Cloroplasto", "Ribossomo", "Núcleo"],
+          "correta": "Cloroplasto"
+        },
+        {
+          "id": 3,
+          "pergunta": "Qual molécula carrega a informação genética?",
+          "alternativas": ["RNA", "Proteína", "DNA", "Lipídio"],
+          "correta": "DNA"
+        },
+        {
+          "id": 4,
+          "pergunta": "Qual sistema é responsável pela circulação do sangue?",
+          "alternativas": [
+            "Digestório",
+            "Nervoso",
+            "Circulatório",
+            "Respiratório"
+          ],
+          "correta": "Circulatório"
+        },
+        {
+          "id": 5,
+          "pergunta": "O que é um herbívoro?",
+          "alternativas": [
+            "Animal que come plantas",
+            "Animal que come carne",
+            "Animal que come ovos",
+            "Animal onívoro"
+          ],
+          "correta": "Animal que come plantas"
+        },
+        {
+          "id": 6,
+          "pergunta": "Qual processo gera gametas?",
+          "alternativas": ["Mitose", "Meiose", "Fagocitose", "Endocitose"],
+          "correta": "Meiose"
+        },
+        {
+          "id": 7,
+          "pergunta": "Qual órgão é responsável pela filtração do sangue?",
+          "alternativas": ["Fígado", "Coração", "Rim", "Pulmão"],
+          "correta": "Rim"
+        },
+        {
+          "id": 8,
+          "pergunta": "O que significa 'biodiversidade'?",
+          "alternativas": [
+            "Variedade de espécies em um ambiente",
+            "Quantidade de animais domésticos",
+            "Número de pessoas em uma cidade",
+            "Área de proteção ambiental"
+          ],
+          "correta": "Variedade de espécies em um ambiente"
+        },
+        {
+          "id": 9,
+          "pergunta": "Qual é a função dos anticorpos?",
+          "alternativas": [
+            "Produzir energia",
+            "Transportar oxigênio",
+            "Defender contra patógenos",
+            "Conduzir impulsos nervosos"
+          ],
+          "correta": "Defender contra patógenos"
+        },
+        {
+          "id": 10,
+          "pergunta": "Qual grupo inclui animais com espinha dorsal?",
+          "alternativas": [
+            "Invertebrados",
+            "Vertebrados",
+            "Protistas",
+            "Bactérias"
+          ],
+          "correta": "Vertebrados"
+        }
+      ]
+    },
+    "fisica": {
+      "perguntas": [
+        {
+          "id": 1,
+          "pergunta": "Qual a unidade de medida da força no SI?",
+          "alternativas": ["Watt", "Newton", "Pascal", "Joule"],
+          "correta": "Newton"
+        },
+        {
+          "id": 2,
+          "pergunta": "Qual é a fórmula da velocidade média?",
+          "alternativas": ["v = d/t", "v = m/a", "v = a/t", "v = t/d"],
+          "correta": "v = d/t"
+        },
+        {
+          "id": 3,
+          "pergunta": "O que mede a pressão?",
+          "alternativas": [
+            "Força por área",
+            "Massa por volume",
+            "Energia por tempo",
+            "Velocidade por tempo"
+          ],
+          "correta": "Força por área"
+        },
+        {
+          "id": 4,
+          "pergunta": "Qual a fonte de energia em uma pilha elétrica?",
+          "alternativas": ["Campo magnético", "Reação química", "Luz", "Som"],
+          "correta": "Reação química"
+        },
+        {
+          "id": 5,
+          "pergunta": "Qual fenômeno explica a refração da luz?",
+          "alternativas": [
+            "Interferência",
+            "Difração",
+            "Mudança de velocidade ao atravessar meios",
+            "Polarização"
+          ],
+          "correta": "Mudança de velocidade ao atravessar meios"
+        },
+        {
+          "id": 6,
+          "pergunta": "Qual lei relaciona força, massa e aceleração?",
+          "alternativas": [
+            "Primeira Lei de Newton",
+            "Segunda Lei de Newton",
+            "Lei da Gravitação Universal",
+            "Lei da Inércia"
+          ],
+          "correta": "Segunda Lei de Newton"
+        },
+        {
+          "id": 7,
+          "pergunta": "Qual é a unidade de energia no SI?",
+          "alternativas": ["Newton", "Joule", "Watt", "Pascal"],
+          "correta": "Joule"
+        },
+        {
+          "id": 8,
+          "pergunta": "O que é velocidade escalar média?",
+          "alternativas": [
+            "Deslocamento dividido pelo tempo",
+            "Distância total dividida pelo tempo",
+            "Aceleração vezes tempo",
+            "Força multiplicada pela massa"
+          ],
+          "correta": "Distância total dividida pelo tempo"
+        },
+        {
+          "id": 9,
+          "pergunta": "Qual fenômeno está relacionado a ondas sonoras?",
+          "alternativas": [
+            "Polarização",
+            "Amplitude elétrica",
+            "Compressão e rarefação",
+            "Refração luminosa"
+          ],
+          "correta": "Compressão e rarefação"
+        },
+        {
+          "id": 10,
+          "pergunta": "Qual força mantém os planetas em órbita ao redor do Sol?",
+          "alternativas": [
+            "Força eletromagnética",
+            "Força de atrito",
+            "Força gravitacional",
+            "Força centrífuga"
+          ],
+          "correta": "Força gravitacional"
+        }
+      ]
+    },
+    "ingles": {
+      "perguntas": [
+        {
+          "id": 1,
+          "pergunta": "Como se diz 'casa' em inglês?",
+          "alternativas": ["House", "Car", "Tree", "Book"],
+          "correta": "House"
+        },
+        {
+          "id": 2,
+          "pergunta": "Escolha a forma correta do verbo no passado: 'I ___ yesterday.'",
+          "alternativas": ["goes", "went", "gone", "going"],
+          "correta": "went"
+        },
+        {
+          "id": 3,
+          "pergunta": "Qual a tradução de 'apple'?",
+          "alternativas": ["Maçã", "Banana", "Uva", "Laranja"],
+          "correta": "Maçã"
+        },
+        {
+          "id": 4,
+          "pergunta": "Qual é o plural de 'child'?",
+          "alternativas": ["Childs", "Childes", "Children", "Child"],
+          "correta": "Children"
+        },
+        {
+          "id": 5,
+          "pergunta": "Qual preposição completa: 'She is good ___ math'?",
+          "alternativas": ["in", "on", "at", "for"],
+          "correta": "at"
+        },
+        {
+          "id": 6,
+          "pergunta": "Como se pergunta 'Como você está?' em inglês?",
+          "alternativas": [
+            "How are you?",
+            "What are you?",
+            "Where are you?",
+            "Who are you?"
+          ],
+          "correta": "How are you?"
+        },
+        {
+          "id": 7,
+          "pergunta": "Traduza 'livro' para inglês:",
+          "alternativas": ["Pen", "Table", "Book", "Chair"],
+          "correta": "Book"
+        },
+        {
+          "id": 8,
+          "pergunta": "Qual é o comparativo de 'big'?",
+          "alternativas": ["Bigger", "Biggest", "More big", "Most big"],
+          "correta": "Bigger"
+        },
+        {
+          "id": 9,
+          "pergunta": "Complete: 'They ___ playing now.'",
+          "alternativas": ["is", "are", "am", "be"],
+          "correta": "are"
+        },
+        {
+          "id": 10,
+          "pergunta": "Qual palavra significa 'rápido' em inglês?",
+          "alternativas": ["Slow", "Fast", "Late", "Hard"],
+          "correta": "Fast"
+        }
+      ]
+    },
+    "quimica": {
+      "perguntas": [
+        {
+          "id": 1,
+          "pergunta": "Qual é o símbolo químico do Oxigênio?",
+          "alternativas": ["O", "Ox", "Og", "Oxg"],
+          "correta": "O"
+        },
+        {
+          "id": 2,
+          "pergunta": "Qual partícula tem carga negativa?",
+          "alternativas": ["Próton", "Nêutron", "Elétron", "Íon"],
+          "correta": "Elétron"
+        },
+        {
+          "id": 3,
+          "pergunta": "O que indica o pH de uma solução?",
+          "alternativas": [
+            "Temperatura",
+            "Acidez ou alcalinidade",
+            "Viscosidade",
+            "Densidade"
+          ],
+          "correta": "Acidez ou alcalinidade"
+        },
+        {
+          "id": 4,
+          "pergunta": "Qual estado da matéria tem forma definida e volume definido?",
+          "alternativas": ["Sólido", "Líquido", "Gasoso", "Plasma"],
+          "correta": "Sólido"
+        },
+        {
+          "id": 5,
+          "pergunta": "Qual ligação ocorre entre metal e não metal formando íons?",
+          "alternativas": ["Covalente", "Iônica", "Metálica", "Van der Waals"],
+          "correta": "Iônica"
+        },
+        {
+          "id": 6,
+          "pergunta": "Qual gás é produzido na respiração celular?",
+          "alternativas": [
+            "Oxigênio",
+            "Dióxido de carbono",
+            "Hidrogênio",
+            "Nitrogênio"
+          ],
+          "correta": "Dióxido de carbono"
+        },
+        {
+          "id": 7,
+          "pergunta": "Qual unidade mede a quantidade de substância?",
+          "alternativas": ["Mol", "Grama", "Litro", "Molecula"],
+          "correta": "Mol"
+        },
+        {
+          "id": 8,
+          "pergunta": "Qual é o processo de transformação de reagentes em produtos?",
+          "alternativas": [
+            "Fusão",
+            "Reação química",
+            "Sublimação",
+            "Deposição"
+          ],
+          "correta": "Reação química"
+        },
+        {
+          "id": 9,
+          "pergunta": "Qual elemento é conhecido como 'rei dos metais' pela sua reatividade com água?",
+          "alternativas": ["Sódio", "Ouro", "Ferro", "Cobre"],
+          "correta": "Sódio"
+        },
+        {
+          "id": 10,
+          "pergunta": "Qual grupo de compostos contém carbono central?",
+          "alternativas": ["Iônicos", "Orgânicos", "Metálicos", "Ácidos"],
+          "correta": "Orgânicos"
+        }
+      ]
+    },
+    "filosofia": {
+      "perguntas": [
+        {
+          "id": 1,
+          "pergunta": "Quem é considerado discípulo de Sócrates e autor da República?",
+          "alternativas": ["Aristóteles", "Platão", "Descartes", "Kant"],
+          "correta": "Platão"
+        },
+        {
+          "id": 2,
+          "pergunta": "O que estuda a ética?",
+          "alternativas": [
+            "A natureza do universo",
+            "Os princípios morais e o bem agir",
+            "A estrutura da linguagem",
+            "Cálculo de probabilidades"
+          ],
+          "correta": "Os princípios morais e o bem agir"
+        },
+        {
+          "id": 3,
+          "pergunta": "Qual corrente filosófica enfatiza a razão como fonte do conhecimento?",
+          "alternativas": [
+            "Empirismo",
+            "Racionalismo",
+            "Existencialismo",
+            "Ceticismo"
+          ],
+          "correta": "Racionalismo"
+        },
+        {
+          "id": 4,
+          "pergunta": "Quem escreveu 'Penso, logo existo'?",
+          "alternativas": ["Descartes", "Nietzsche", "Kant", "Hume"],
+          "correta": "Descartes"
+        },
+        {
+          "id": 5,
+          "pergunta": "O que é epistemologia?",
+          "alternativas": [
+            "Estudo da arte",
+            "Estudo do conhecimento",
+            "Estudo da política",
+            "Estudo da religião"
+          ],
+          "correta": "Estudo do conhecimento"
+        },
+        {
+          "id": 6,
+          "pergunta": "Qual filósofo é associado ao utilitarismo clássico?",
+          "alternativas": [
+            "Kant",
+            "John Stuart Mill",
+            "Sócrates",
+            "Aristóteles"
+          ],
+          "correta": "John Stuart Mill"
+        },
+        {
+          "id": 7,
+          "pergunta": "O que significa 'existencialismo' em filosofia?",
+          "alternativas": [
+            "Foco nas estruturas políticas",
+            "Foco na existência individual e liberdade",
+            "Foco em leis naturais",
+            "Foco em gramática"
+          ],
+          "correta": "Foco na existência individual e liberdade"
+        },
+        {
+          "id": 8,
+          "pergunta": "Qual conceito é central para a filosofia de Aristóteles?",
+          "alternativas": [
+            "Dialética",
+            "Forma e matéria",
+            "Niilismo",
+            "Determinismo estrito"
+          ],
+          "correta": "Forma e matéria"
+        },
+        {
+          "id": 9,
+          "pergunta": "O que é falácia?",
+          "alternativas": [
+            "Um tipo de argumento válido",
+            "Um erro de raciocínio que parece correto",
+            "Uma teoria científica",
+            "Uma prática artística"
+          ],
+          "correta": "Um erro de raciocínio que parece correto"
+        },
+        {
+          "id": 10,
+          "pergunta": "Qual filósofo escreveu 'Além do Bem e do Mal'?",
+          "alternativas": ["Nietzsche", "Plató", "Sartre", "Hobbes"],
+          "correta": "Nietzsche"
+        }
+      ]
+    },
+    "educacaoFisica": {
+      "perguntas": [
+        {
+          "id": 1,
+          "pergunta": "Qual componente não faz parte da aptidão física?",
+          "alternativas": [
+            "Força",
+            "Flexibilidade",
+            "Inteligência",
+            "Resistência"
+          ],
+          "correta": "Inteligência"
+        },
+        {
+          "id": 2,
+          "pergunta": "Qual tipo de exercício é mais associado ao desenvolvimento cardiovascular?",
+          "alternativas": [
+            "Musculação pesada",
+            "Treino aeróbico",
+            "Alongamento estático",
+            "Treino de agilidade"
+          ],
+          "correta": "Treino aeróbico"
+        },
+        {
+          "id": 3,
+          "pergunta": "O que é aquecimento antes do exercício?",
+          "alternativas": [
+            "Atividade para preparar o corpo e reduzir lesões",
+            "Exercício de alta intensidade sem preparação",
+            "Descanso prolongado",
+            "Alimentação pesada antes do treino"
+          ],
+          "correta": "Atividade para preparar o corpo e reduzir lesões"
+        },
+        {
+          "id": 4,
+          "pergunta": "Qual é a medida que relaciona peso e altura (índice)?",
+          "alternativas": [
+            "Frequência cardíaca",
+            "IMC",
+            "VO2 máximo",
+            "Pressão arterial"
+          ],
+          "correta": "IMC"
+        },
+        {
+          "id": 5,
+          "pergunta": "Qual esporte é jogado com raquete e uma pequena bola suspensa sobre uma rede?",
+          "alternativas": ["Futebol", "Basquete", "Tênis", "Voleibol"],
+          "correta": "Tênis"
+        },
+        {
+          "id": 6,
+          "pergunta": "Qual exercício trabalha principalmente os músculos abdominais?",
+          "alternativas": ["Agachamento", "Prancha", "Supino", "Puxada"],
+          "correta": "Prancha"
+        },
+        {
+          "id": 7,
+          "pergunta": "O que é recuperação muscular?",
+          "alternativas": [
+            "Aumento de velocidade durante o treino",
+            "Processo de descanso e reparo após esforço",
+            "Melhoria do aquecimento",
+            "A técnica de competição"
+          ],
+          "correta": "Processo de descanso e reparo após esforço"
+        },
+        {
+          "id": 8,
+          "pergunta": "Qual componente é importante para a prevenção de lesões?",
+          "alternativas": [
+            "Sobrecarga constante",
+            "Alongamento e fortalecimento",
+            "Ignorar dor",
+            "Entrenar sem aquecer"
+          ],
+          "correta": "Alongamento e fortalecimento"
+        },
+        {
+          "id": 9,
+          "pergunta": "Qual é a duração média recomendada de atividade física moderada por semana para saúde?",
+          "alternativas": [
+            "75 minutos",
+            "150 minutos",
+            "300 minutos",
+            "30 minutos"
+          ],
+          "correta": "150 minutos"
+        },
+        {
+          "id": 10,
+          "pergunta": "Qual é o principal músculo usado no movimento de flexão do braço?",
+          "alternativas": ["Tríceps", "Peitoral", "Bíceps", "Quadríceps"],
+          "correta": "Bíceps"
+        }
+      ]
+    }
   }
 }
