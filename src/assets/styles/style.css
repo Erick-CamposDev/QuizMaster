@@ -379,6 +379,10 @@ footer {
     margin-left: 0;
   }
 
+  .answer {
+    width: 95%;
+  }
+
   .answer > button {
     font-size: 15px;
   }
@@ -399,6 +403,23 @@ footer {
   .emoji-container > img {
     width: 250px;
     height: 250px;
+  }
+}
+
+@media (hover: none) {
+  .answer-button:hover,
+  .answer-button:disabled:hover {
+    background: none;
+    color: inherit;
+    cursor: default;
+  }
+
+  #nextQuestionBtn,
+  #exitBtn,
+  #startBtn {
+    transform: none;
+    filter: none;
+    box-shadow: none;
   }
 }
 
