@@ -10,7 +10,7 @@
         },
         {
           "id": 2,
-          "pergunta": "Qual é o antônimo de triste?",
+          "pergunta": "Qual é o antônimo de feliz?",
           "alternativas": ["Triste", "Raivoso", "Agitado", "Desanimado"],
           "correta": "Triste"
         },
