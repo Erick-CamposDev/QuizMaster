@@ -11,7 +11,17 @@ const question = document.querySelector(".question");
 const answersContainer = document.querySelector(".answers-container");
 const nextButton = document.getElementById("nextQuestionBtn");
 
+let index = 0;
+let score = 0;
+let answered = false;
+let selectedBtn = null;
+let correctAnswer = null;
+
 async function startQuiz() {
+  index = 0;
+  score = 0;
+  nextButton.disabled = false;
+
   resetToDefault(msgContainer);
 
   if (select.value === "") {
@@ -47,6 +57,8 @@ async function startQuiz() {
 const letters = ["A", "B", "C", "D"];
 
 async function fillQuestions(data, subject) {
+  answersContainer.innerHTML = "";
+
   startQuizContainer.style.display = "none";
   quiz.style.display = "flex";
 
@@ -77,6 +89,7 @@ async function fillQuestions(data, subject) {
     });
 
     const answerButtons = answersContainer.querySelectorAll(".answer-button");
+    correctAnswer = data.materias[subject].perguntas[0].correta;
 
     answerButtons.forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -93,12 +106,42 @@ async function fillQuestions(data, subject) {
     answerButtons.forEach((btn) => {
       btn.addEventListener("click", () => {
         nextButton.style.display = "flex";
+
+        if (answered) {
+          return;
+        }
+
+        selectedBtn = btn;
       });
     });
 
-    nextButton.addEventListener("click", () => {
-      showNextQuestion(data, subject);
-    });
+    nextButton.onclick = () => {
+      const userChoice = selectedBtn.textContent;
+
+      answerButtons.forEach((btn) => {
+        btn.disabled = true;
+      });
+
+      nextButton.disabled = true;
+
+      if (userChoice === correctAnswer) {
+        selectedBtn.classList.remove("active");
+        selectedBtn.classList.add("correct");
+      } else {
+        selectedBtn.classList.remove("active");
+        selectedBtn.classList.add("wrong");
+
+        answerButtons.forEach((btn) => {
+          if (btn.textContent === correctAnswer) {
+            btn.classList.add("correct");
+          }
+        });
+      }
+
+      setTimeout(() => {
+        showNextQuestion(data, subject);
+      }, 2000);
+    };
 
     nextButton.style.display = "none";
   } catch (error) {
@@ -108,11 +151,12 @@ async function fillQuestions(data, subject) {
   }
 }
 
-let index = 0;
-let answered = false;
-
 function showNextQuestion(data, subject) {
-  if (index >= data.materias[subject].perguntas.length) {
+  nextButton.style.display = "none";
+  answered = false;
+  selectedBtn = null;
+
+  if (index >= data.materias[subject].perguntas.length - 1) {
     quiz.style.display = "none";
     scoreContainer.style.display = "flex";
     return;
@@ -122,14 +166,28 @@ function showNextQuestion(data, subject) {
 
   const currentQuestion = data.materias[subject].perguntas[index];
   const alternatives = data.materias[subject].perguntas[index].alternativas;
+  correctAnswer = currentQuestion.correta;
 
   question.innerHTML = `<h2>${currentQuestion.id}. ${currentQuestion.pergunta}</h2>`;
 
   const buttons = document.querySelectorAll(".answer-button");
 
+  nextButton.disabled = false;
+
   buttons.forEach((btn, i) => {
     btn.innerText = `${alternatives[i]}`;
+    btn.classList.remove("active", "wrong", "correct");
+    btn.disabled = false;
   });
+}
+
+function increaseScore() {
+  score++;
+}
+
+function exit() {
+  scoreContainer.style.display = "none";
+  startQuizContainer.style.display = "flex";
 }
 
 function showErrorMsg(msg, element) {

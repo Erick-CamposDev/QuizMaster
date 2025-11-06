@@ -175,6 +175,15 @@ main {
   background: #f51515;
 }
 
+.answer-button:disabled {
+  color: #0a0a0a;
+}
+
+.answer-button:disabled:hover {
+  cursor: not-allowed;
+  background: #fafafa;
+}
+
 .answer span {
   font-size: 30px;
   font-weight: 100;
@@ -220,6 +229,11 @@ main {
 #nextQuestionBtn:hover {
   transform: scale(1.05);
   filter: brightness(1.2);
+}
+
+#nextQuestionBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 
 .score-container {
