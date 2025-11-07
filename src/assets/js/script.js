@@ -289,6 +289,16 @@ function updateScoreContainer() {
   emojiContainer.appendChild(image);
   scoreMark.innerHTML = `<p>Você acertou <span class="mark">${score}/10</span> questões do quiz!<p>
                          <p>${msg}</p>`;
+
+  const mark = scoreMark.querySelector(".mark");
+
+  if (score <= 4) {
+    mark.style.color = "#ff0000";
+  } else if (score <= 6) {
+    mark.style.color = "#e0b700ff";
+  } else {
+    mark.style.color = "#007a00ff";
+  }
 }
 
 function exit() {
