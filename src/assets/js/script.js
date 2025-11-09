@@ -96,7 +96,6 @@ async function startQuiz() {
       const response = await fetch("src/assets/data/questions.json");
       const data = await response.json();
 
-      console.log(data);
       modalLoading.style.display = "none";
 
       if (response.ok) {
