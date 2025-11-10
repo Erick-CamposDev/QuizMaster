@@ -38,7 +38,7 @@ O objetivo é testar conhecimentos em diversas matérias, oferecendo uma experi�
 ### 🔗 Deploy
 
 Acesse o projeto online:  
-👉 [**Quiz Interativo - Acessar Aqui**](https://link-do-deploy-placeholder.com)
+👉 [**Quiz Interativo - Acessar Aqui**](https://erick-camposdev.github.io/QuizMaster/)
 
 ---
 
