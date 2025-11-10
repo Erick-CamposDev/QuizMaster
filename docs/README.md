@@ -7,7 +7,7 @@
 ![Mobile First](https://img.shields.io/badge/MOBILE%20FIRST-25A162?style=for-the-badge&logo=android&logoColor=white)
 ![Responsive](https://img.shields.io/badge/RESPONSIVO-007ACC?style=for-the-badge&logo=responsive-design&logoColor=white)
 
-Quiz Master é projeto web de mm **quiz interativo** desenvolvido com **HTML, CSS, JavaScript e JSON**, voltado para estudantes do **Ensino Médio**.  
+Quiz Master é projeto web de um **quiz interativo** desenvolvido com **HTML, CSS, JavaScript e JSON**, voltado para estudantes do **Ensino Médio**.  
 O objetivo é testar conhecimentos em diversas matérias, oferecendo uma experiência dinâmica e visualmente agradável, totalmente responsiva e otimizada para **dispositivos móveis (Mobile First)**.
 
 ---
