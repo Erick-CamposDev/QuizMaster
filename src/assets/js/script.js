@@ -255,8 +255,10 @@ function updateScoreContainer() {
   let msg = "";
 
   if (score < 1) {
+    congratulationsMsg = "Desesperador!";
     msg = "Não fique decepcionado! Estude mais!";
   } else if (score < 3) {
+    congratulationsMsg = "Não foi bom...";
     msg = "Continue treinando mais!";
   } else if (score < 5) {
     congratulationsMsg = "Puxa!";
