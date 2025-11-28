@@ -1,4 +1,4 @@
-# 🧠 Quiz Interativo Multidisciplinar
+# 🧠 QuizMaster
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -7,7 +7,7 @@
 ![Mobile First](https://img.shields.io/badge/MOBILE%20FIRST-25A162?style=for-the-badge&logo=android&logoColor=white)
 ![Responsive](https://img.shields.io/badge/RESPONSIVO-007ACC?style=for-the-badge&logo=responsive-design&logoColor=white)
 
-Quiz Master é projeto web de mm **quiz interativo** desenvolvido com **HTML, CSS, JavaScript e JSON**, voltado para estudantes do **Ensino Médio**.  
+Quiz Master é projeto web de um **quiz interativo** desenvolvido com **HTML, CSS, JavaScript e JSON**, voltado para estudantes do **Ensino Médio**.  
 O objetivo é testar conhecimentos em diversas matérias, oferecendo uma experiência dinâmica e visualmente agradável, totalmente responsiva e otimizada para **dispositivos móveis (Mobile First)**.
 
 ---
@@ -38,7 +38,7 @@ O objetivo é testar conhecimentos em diversas matérias, oferecendo uma experi�
 ### 🔗 Deploy
 
 Acesse o projeto online:  
-👉 [**Quiz Interativo - Acessar Aqui**](https://link-do-deploy-placeholder.com)
+👉 [**Quiz Interativo - Acessar Aqui**](https://erick-camposdev.github.io/QuizMaster/)
 
 ---
 
