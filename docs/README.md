@@ -76,7 +76,7 @@ O layout foi desenvolvido com **princípios de UX simples e diretos**, garantind
 ## 🧩 Próximas Melhorias
 
 - [x] ⏱️ Adicionar temporizador para o quiz.
-- [] 🔥 Adicionar modos fácil, médio e díficil para selecionar.
+- [ ] 🔥 Adicionar modos fácil, médio e díficil para selecionar.
 
 ---
 

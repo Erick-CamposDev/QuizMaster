@@ -226,6 +226,7 @@ function showNextQuestion(data, subject) {
     quiz.style.display = "none";
     scoreContainer.style.display = "flex";
     updateScoreContainer();
+    clearInterval(interval);
     return;
   }
 
