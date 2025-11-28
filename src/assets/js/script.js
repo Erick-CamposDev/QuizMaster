@@ -154,18 +154,6 @@ async function fillQuestions(data, subject) {
 
     answerButtons.forEach((btn) => {
       btn.addEventListener("click", () => {
-        answerButtons.forEach((b) => {
-          if (b === btn) {
-            b.classList.add("active");
-          } else {
-            b.classList.remove("active");
-          }
-        });
-      });
-    });
-
-    answerButtons.forEach((btn) => {
-      btn.addEventListener("click", () => {
         nextButton.style.display = "flex";
 
         if (answered) {
@@ -173,6 +161,13 @@ async function fillQuestions(data, subject) {
         }
 
         selectedBtn = btn;
+        answerButtons.forEach((b) => {
+          if (b === btn) {
+            b.classList.add("active");
+          } else {
+            b.classList.remove("active");
+          }
+        });
       });
     });
 
