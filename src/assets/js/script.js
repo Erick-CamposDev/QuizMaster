@@ -15,11 +15,17 @@ const congratulations = document.querySelector(".congratulations");
 const emojiContainer = document.querySelector(".emoji-container");
 const scoreMark = document.querySelector(".score-mark");
 
+const timer = document.querySelector(".timer");
+const timerModal = document.querySelector(".timer-modal-bg");
+
 let index = 0;
 let score = 0;
 let answered = false;
 let selectedBtn = null;
 let correctAnswer = null;
+let minutes = 1;
+let seconds = 0;
+let interval = null;
 
 const emojis = [
   {
@@ -82,6 +88,8 @@ const emojis = [
 async function startQuiz() {
   index = 0;
   score = 0;
+  minutes = 1;
+  seconds = 0;
   nextButton.disabled = false;
 
   resetToDefault(msgContainer);
@@ -122,6 +130,7 @@ async function fillQuestions(data, subject) {
 
   startQuizContainer.style.display = "none";
   quiz.style.display = "flex";
+  startTimer();
 
   try {
     question.innerHTML = `<h2>${data.materias[subject].perguntas[0].id}. ${data.materias[subject].perguntas[0].pergunta}</h2>`;
@@ -297,8 +306,35 @@ function updateScoreContainer() {
   }
 }
 
+function renderTimer() {
+  let minuteFormated = minutes < 10 ? "0" + minutes : minutes;
+  let secondFormated = seconds < 10 ? "0" + seconds : seconds;
+
+  timer.innerHTML = `<p>${minuteFormated}:${secondFormated}</p>`;
+}
+
+function startTimer() {
+  renderTimer();
+
+  interval = setInterval(() => {
+    if (seconds === 0) {
+      seconds = 60;
+      minutes--;
+    }
+
+    seconds--;
+
+    if (seconds === 0 && minutes === 0) {
+      timerModal.style.display = "flex";
+    }
+    renderTimer();
+  }, 1000);
+}
+
 function exit() {
   scoreContainer.style.display = "none";
+  quiz.style.display = "none";
+  timerModal.style.display = "none";
   startQuizContainer.style.display = "flex";
 
   select.value = "";
